@@ -1,6 +1,6 @@
 import os
 path = "Frank/"
-os.mkdir("./Frank")
+#os.mkdir("./Frank")
 
 
 file = open(path + "Aaron", "w")
