@@ -1,0 +1,119 @@
+import os
+path = "Frank/"
+#os.mkdir("./Frank")
+
+def aaron():
+    file = open(path + "Aaron", "w")
+    conversation = """29/03/2024 08:00 PM  <Frank>  Yo, pre! Kamusta?
+29/03/2024 08:01 PM  <Aaron>  Ayos lang, bro! Chill lang sa bahay. Ikaw?
+30/03/2024 10:30 AM  <Frank>  Same lang, bro. Tambay lang sa kwarto, nood ng series.
+30/03/2024 11:00 AM  <Aaron>  Astig, bro! Anong series yan?
+30/03/2024 11:05 AM  <Frank>  Pinapanood ko yung "Squid Game," pare. Grabe, intense!
+30/03/2024 11:10 AM  <Aaron>  Oo, bro! Solid yan, trip ko rin yan. Nakakaadik!
+01/04/2024 03:00 PM  <Frank>  Pare, alam mo na ba yung assignment sa CS class natin?
+01/04/2024 03:05 PM  <Aaron>  Oo, bro! Hirap nung coding part, di ko pa gets.
+01/04/2024 03:10 PM  <Frank>  Pareho tayo, bro. Tara, brainstorm tayo mamaya.
+01/04/2024 03:15 PM  <Aaron>  Game, pare! Saan tayo mamaya?
+01/04/2024 03:20 PM  <Frank>  Sa Starbucks, bro. Libre mo ako, ha!
+01/04/2024 03:25 PM  <Aaron>  Haha, sige bro! Kitakits mamaya!
+02/04/2024 06:00 PM  <Frank>  Bro, medyo late ako ng konti. Pwede 30 minutes delay?
+02/04/2024 06:05 PM  <Aaron>  Okay lang, bro. Mag-relax ka lang, walang problema!
+02/04/2024 06:35 PM  <Frank>  Salamat, bro. Kitakits mamaya!
+02/04/2024 06:40 PM  <Aaron>  Walang anuman, bro! Ingat sa pagdrive!
+04/04/2024 04:00 PM  <Frank>  Bro, may tanong ako sa lecture kanina.
+04/04/2024 04:05 PM  <Aaron>  Ano yun, bro? Anong di mo gets?
+04/04/2024 04:10 PM  <Frank>  Yung concept ng recursion, pare. Hirap intindihin eh.
+04/04/2024 04:15 PM  <Aaron>  Tara, bro. Magmeet tayo bukas sa library, tulungan kita.
+04/04/2024 04:20 PM  <Frank>  Salamat, pare! Bukas sa library!
+05/04/2024 02:00 PM  <Frank>  Bro, free ka na ba magmeet?
+05/04/2024 02:05 PM  <Aaron>  Oo, bro! Tara na sa study room.
+05/04/2024 02:30 PM  <Frank>  Salamat sa tulong, bro! Maayos na yung concept.
+05/04/2024 02:35 PM  <Aaron>  Walang anuman, bro! Alam mo na, sabihan mo lang ako kung may tanong ka.
+07/04/2024 07:00 PM  <Aaron>  Bro, nakahanap ako ng magandang resources online sa project natin. I-send ko sayo.
+07/04/2024 07:05 PM  <Frank>  Astig, bro! Salamat sa pagshare! Check ko mamaya.
+07/04/2024 07:10 PM  <Aaron>  Walang anuman, pare! Sabihan mo lang ako kung may kailangan ka.
+09/04/2024 03:00 PM  <Frank>  Bro, may progress na ako sa project. Gusto mo magmeet?
+09/04/2024 03:05 PM  <Aaron>  Game, bro! Saan tayo mamaya?
+09/04/2024 03:10 PM  <Frank>  Dito sa Starbucks ulit, bro! Libre ko naman ngayon!
+09/04/2024 03:15 PM  <Aaron>  Haha, salamat bro! Kitakits mamaya!
+10/04/2024 02:00 PM  <Frank>  Bro, andito na ako sa study room. San ka na?
+10/04/2024 02:05 PM  <Aaron>  Sorry, bro. Nagbrownout dito. Hintayin mo lang ako.
+10/04/2024 02:20 PM  <Frank>  Okay lang, bro! Ingat ka dyan!
+10/04/2024 02:35 PM  <Aaron>  Andito na ako, bro! Let's do this!
+10/04/2024 02:40 PM  <Frank>  Game, bro! Tara na sa coding!
+11/04/2024 05:00 PM  <Frank>  Bro, tara magstudy sa project this weekend?
+11/04/2024 05:05 PM  <Aaron>  Game, bro! Tara sa Sunday afternoon?
+11/04/2024 05:10 PM  <Frank>  Sige, bro! Kitakits sa Sunday!
+12/04/2024 02:00 PM  <Aaron>  Bro, andito na ako sa library. San ka na?
+12/04/2024 02:05 PM  <Frank>  Sorry bro, medyo late ako. 10 minutes lang.
+12/04/2024 02:15 PM  <Aaron>  Okay lang, bro! Hintayin kita dito.
+12/04/2024 02:30 PM  <Frank>  Andito na ako, bro! Tara na!
+12/04/2024 02:35 PM  <Aaron>  Sige, bro! Let's do this!
+10/05/2024 08:43 PM  <Frank>  Sup Bro
+10/05/2024 08:44 PM  <Frank>  Yow Bro!
+"""
+    file.write(conversation)
+    file.close()
+def alexa():
+    file = open(path + "Alexa", "w")
+    conversation = """29/03/2024 08:00 PM <Alexa> Hey Frank, have you heard the latest chismis about Sheena?
+29/03/2024 08:05 PM <Frank> What's up, Alexa? What's the scoop?
+29/03/2024 08:10 PM <Alexa> So, apparently, Sheena got caught flirting with the prof during break time.
+29/03/2024 08:15 PM <Frank> No way, for real? That's so kabog!
+29/03/2024 08:20 PM <Alexa> Oo nga, grabe! It's all over campus na.
+29/03/2024 08:25 PM <Frank> Dang, she's really something else, huh?
+29/03/2024 08:30 PM <Alexa> Totally! Kaya pala she's been acting so weird lately.
+29/03/2024 08:35 PM <Frank> Yeah, parang may ibang vibe talaga siya ngayon.
+29/03/2024 08:40 PM <Alexa> Anyway, I wonder what's gonna happen next. Baka may ganap na sa next class.
+29/03/2024 08:45 PM <Frank> Yeah, let's see what unfolds.
+"""
+    file.write(conversation)
+    file.close()
+def christian():
+    file = open(path + "christian", "w")
+    conversation = """29/03/2024 08:00 PM  <Christian>  Yo, Frank! Remember nung bata pa tayo, we used to play patintero sa kalsada?
+29/03/2024 08:05 PM  <Frank>  Yo, Christian! Oo, bro! Those were the days, grabe ang saya natin dati.
+29/03/2024 08:10 PM  <Christian>  Tapos yung mga late night chikahan natin sa kwarto mo, pre. Solid yun.
+29/03/2024 08:15 PM  <Frank>  Oo nga, bro! Yung mga heart-to-heart talks natin, di ko makakalimutan yun.
+29/03/2024 08:20 PM  <Christian>  Totoo, bro! And remember yung time na nagkaroon tayo ng sleepover sa beach?
+29/03/2024 08:25 PM  <Frank>  Bro, yung beach trip natin, sobrang lit! Mga bonding moments natin talaga yun.
+29/03/2024 08:30 PM  <Christian>  Tapos yung mga hirit mo sa mga girls, pare. Nakakatawa!
+29/03/2024 08:35 PM  <Frank>  Haha, bro! Those were the days of epic landian! Good times, good times.
+29/03/2024 08:40 PM  <Christian>  Oo, pre! Pero alam mo, sobrang thankful ako for having you as my bro, through thick and thin.
+29/03/2024 08:45 PM  <Frank>  Same here, Christian! Bro, we've been through so much together, and I wouldn't have it any other way.
+29/03/2024 08:50 PM  <Christian>  Bro, cheers to more sweet moments and epic adventures ahead!
+29/03/2024 08:55 PM  <Frank>  Cheers, Christian! Here's to a lifetime of friendship!
+"""
+    file.write(conversation)
+    file.close()
+def alex():
+    file = open(path + "alex", "w")
+    conversation = """10/05/2024 06:35 PM  <Frank>  Hello
+10/05/2024 06:35 PM  <Frank>  Hi
+10/05/2024 06:35 PM  <Frank>  Broom
+10/05/2024 06:35 PM  <Frank>  Meow
+10/05/2024 06:35 PM  <Frank>  Lmao
+"""
+    file.write(conversation)
+    file.close()
+def sheena():
+    file = open(path + "sheena", "w")
+    conversation = """29/03/2024 08:00 PM  <Sheena>  Hey Frank! Kamusta?
+29/03/2024 08:05 PM  <Frank>  Hey Sheena! Ayos lang, chill lang. Ikaw?
+29/03/2024 08:10 PM  <Sheena>  Same lang, Frank! Tambay lang din dito sa bahay. Anong ganap?
+29/03/2024 08:15 PM  <Frank>  Wala masyado, Sheena. Just browsing the net and watching some vids. Ikaw, anything interesting?
+29/03/2024 08:20 PM  <Sheena>  Chill lang din, Frank. Nood lang ng mga vlogs sa YouTube. Tara, next time sama ka sa mga gala namin!
+29/03/2024 08:25 PM  <Frank>  Sure thing, Sheena! Just let me know kung kailan ang next ganap. I'm down for some chill time.
+29/03/2024 08:30 PM  <Sheena>  Solid, Frank! We'll make sure to hit you up. Btw, have you seen the latest episode ng fave series mo?
+29/03/2024 08:35 PM  <Frank>  Not yet, Sheena! Been meaning to catch up on it. Balitaan mo ako kung ano na ang latest chika.
+29/03/2024 08:40 PM  <Sheena>  Will do, Frank! Abangan mo yung mga shocking twists and turns. Til next time, bro!
+29/03/2024 08:45 PM  <Frank>  Thanks, Sheena! Ingat ka diyan. Kitakits!
+10/05/2024 09:29 PM  <Frank>  Sup! Sheena
+"""
+    file.write(conversation)
+    file.close()
+
+aaron()
+alexa()
+christian()
+sheena()
