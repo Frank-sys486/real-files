@@ -1,8 +1,6 @@
-import os
-path = "Frank/"
 
 def aaron():
-    file = open(path + "Aaron", "w")
+    file = open("Frank/Aaron", "w")
     conversation = """29/03/2024 08:00 PM  <Frank>  Yo, pre! Kamusta?
 29/03/2024 08:01 PM  <Aaron>  Ayos lang, bro! Chill lang sa bahay. Ikaw?
 30/03/2024 10:30 AM  <Frank>  Same lang, bro. Tambay lang sa kwarto, nood ng series.
@@ -54,7 +52,7 @@ def aaron():
     file.write(conversation)
     file.close()
 def alexa():
-    file = open(path + "Alexa", "w")
+    file = open("Frank/Alexa", "w")
     conversation = """29/03/2024 08:00 PM <Alexa> Hey Frank, have you heard the latest chismis about Sheena?
 29/03/2024 08:05 PM <Frank> What's up, Alexa? What's the scoop?
 29/03/2024 08:10 PM <Alexa> So, apparently, Sheena got caught flirting with the prof during break time.
@@ -69,7 +67,7 @@ def alexa():
     file.write(conversation)
     file.close()
 def christian():
-    file = open(path + "christian", "w")
+    file = open("Frank/christian", "w")
     conversation = """29/03/2024 08:00 PM  <Christian>  Yo, Frank! Remember nung bata pa tayo, we used to play patintero sa kalsada?
 29/03/2024 08:05 PM  <Frank>  Yo, Christian! Oo, bro! Those were the days, grabe ang saya natin dati.
 29/03/2024 08:10 PM  <Christian>  Tapos yung mga late night chikahan natin sa kwarto mo, pre. Solid yun.
@@ -86,7 +84,7 @@ def christian():
     file.write(conversation)
     file.close()
 def alex():
-    file = open(path + "alex", "w")
+    file = open("Frank/alex", "w")
     conversation = """10/05/2024 06:35 PM  <Frank>  Hello
 10/05/2024 06:35 PM  <Frank>  Hi
 10/05/2024 06:35 PM  <Frank>  Broom
@@ -96,7 +94,7 @@ def alex():
     file.write(conversation)
     file.close()
 def sheena():
-    file = open(path + "sheena", "w")
+    file = open("Frank/sheena", "w")
     conversation = """29/03/2024 08:00 PM  <Sheena>  Hey Frank! Kamusta?
 29/03/2024 08:05 PM  <Frank>  Hey Sheena! Ayos lang, chill lang. Ikaw?
 29/03/2024 08:10 PM  <Sheena>  Same lang, Frank! Tambay lang din dito sa bahay. Anong ganap?
