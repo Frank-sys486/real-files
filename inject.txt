@@ -2,9 +2,9 @@ import os
 path = "Frank/"
 #os.mkdir("./Frank")
 
-
-file = open(path + "Aaron", "w")
-conversation = """29/03/2024 08:00 PM  <Frank>  Yo, pre! Kamusta?
+def aaron():
+    file = open(path + "Aaron", "w")
+    conversation = """29/03/2024 08:00 PM  <Frank>  Yo, pre! Kamusta?
 29/03/2024 08:01 PM  <Aaron>  Ayos lang, bro! Chill lang sa bahay. Ikaw?
 30/03/2024 10:30 AM  <Frank>  Same lang, bro. Tambay lang sa kwarto, nood ng series.
 30/03/2024 11:00 AM  <Aaron>  Astig, bro! Anong series yan?
@@ -52,12 +52,11 @@ conversation = """29/03/2024 08:00 PM  <Frank>  Yo, pre! Kamusta?
 10/05/2024 08:43 PM  <Frank>  Sup Bro
 10/05/2024 08:44 PM  <Frank>  Yow Bro!
 """
-file.write(conversation)
-file.close()
-
-
-file = open(path + "Alexa", "w")
-conversation = """29/03/2024 08:00 PM <Alexa> Hey Frank, have you heard the latest chismis about Sheena?
+    file.write(conversation)
+    file.close()
+def alexa():
+    file = open(path + "Alexa", "w")
+    conversation = """29/03/2024 08:00 PM <Alexa> Hey Frank, have you heard the latest chismis about Sheena?
 29/03/2024 08:05 PM <Frank> What's up, Alexa? What's the scoop?
 29/03/2024 08:10 PM <Alexa> So, apparently, Sheena got caught flirting with the prof during break time.
 29/03/2024 08:15 PM <Frank> No way, for real? That's so kabog!
@@ -68,12 +67,11 @@ conversation = """29/03/2024 08:00 PM <Alexa> Hey Frank, have you heard the late
 29/03/2024 08:40 PM <Alexa> Anyway, I wonder what's gonna happen next. Baka may ganap na sa next class.
 29/03/2024 08:45 PM <Frank> Yeah, let's see what unfolds.
 """
-file.write(conversation)
-file.close()
-
-
-file = open(path + "christian", "w")
-conversation = """29/03/2024 08:00 PM  <Christian>  Yo, Frank! Remember nung bata pa tayo, we used to play patintero sa kalsada?
+    file.write(conversation)
+    file.close()
+def christian():
+    file = open(path + "christian", "w")
+    conversation = """29/03/2024 08:00 PM  <Christian>  Yo, Frank! Remember nung bata pa tayo, we used to play patintero sa kalsada?
 29/03/2024 08:05 PM  <Frank>  Yo, Christian! Oo, bro! Those were the days, grabe ang saya natin dati.
 29/03/2024 08:10 PM  <Christian>  Tapos yung mga late night chikahan natin sa kwarto mo, pre. Solid yun.
 29/03/2024 08:15 PM  <Frank>  Oo nga, bro! Yung mga heart-to-heart talks natin, di ko makakalimutan yun.
@@ -86,21 +84,21 @@ conversation = """29/03/2024 08:00 PM  <Christian>  Yo, Frank! Remember nung bat
 29/03/2024 08:50 PM  <Christian>  Bro, cheers to more sweet moments and epic adventures ahead!
 29/03/2024 08:55 PM  <Frank>  Cheers, Christian! Here's to a lifetime of friendship!
 """
-file.write(conversation)
-file.close()
-
-file = open(path + "alex", "w")
-conversation = """10/05/2024 06:35 PM  <Frank>  Hello
+    file.write(conversation)
+    file.close()
+def alex():
+    file = open(path + "alex", "w")
+    conversation = """10/05/2024 06:35 PM  <Frank>  Hello
 10/05/2024 06:35 PM  <Frank>  Hi
 10/05/2024 06:35 PM  <Frank>  Broom
 10/05/2024 06:35 PM  <Frank>  Meow
 10/05/2024 06:35 PM  <Frank>  Lmao
 """
-file.write(conversation)
-file.close()
-
-file = open(path + "sheena", "w")
-conversation = """29/03/2024 08:00 PM  <Sheena>  Hey Frank! Kamusta?
+    file.write(conversation)
+    file.close()
+def sheena():
+    file = open(path + "sheena", "w")
+    conversation = """29/03/2024 08:00 PM  <Sheena>  Hey Frank! Kamusta?
 29/03/2024 08:05 PM  <Frank>  Hey Sheena! Ayos lang, chill lang. Ikaw?
 29/03/2024 08:10 PM  <Sheena>  Same lang, Frank! Tambay lang din dito sa bahay. Anong ganap?
 29/03/2024 08:15 PM  <Frank>  Wala masyado, Sheena. Just browsing the net and watching some vids. Ikaw, anything interesting?
@@ -112,7 +110,10 @@ conversation = """29/03/2024 08:00 PM  <Sheena>  Hey Frank! Kamusta?
 29/03/2024 08:45 PM  <Frank>  Thanks, Sheena! Ingat ka diyan. Kitakits!
 10/05/2024 09:29 PM  <Frank>  Sup! Sheena
 """
-file.write(conversation)
-file.close()
+    file.write(conversation)
+    file.close()
 
-
+aaron()
+alexa()
+christian()
+sheena()
